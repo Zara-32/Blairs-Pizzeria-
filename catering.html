@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering - Blair's Pizzeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="mainpic.png" alt="Blair's Pizzeria" class="logo">
+            <h1> Blair's Pizzeria </h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <h2>Catering Services</h2>
+            <section>
+                <h3>Why Choose Us for Catering?</h3>
+                <p>Blair's Pizzeria offers top-notch catering services perfect for any occasion. Whether it’s a family gathering, corporate event, or wedding, we’ve got you covered with our delicious menu and exceptional service.</p>
+            </section>
+
+            <section>
+                <h3>Catering Packages</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Package</th>
+                            <th>Price</th>
+                            <th>Servings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Family Feast</td>
+                            <td>$150</td>
+                            <td>Feeds 10</td>
+                        </tr>
+                        <tr>
+                            <td>Party Platter</td>
+                            <td>$250</td>
+                            <td>Feeds 20</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate Delight</td>
+                            <td>$500</td>
+                            <td>Feeds 50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3>Request a Catering Quote</h3>
+                <form action="#" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                    <label for="date">Event Date:</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="message">Additional Details:</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your event..." rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <section>
+                <img src="catering.png" alt="Catering Services" class="menu-image">
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2024 Blair's Pizzeria. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ba160a;
+    font-family: Calibri, serif;
+    line-height: 1.6;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #8f8b8b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #bcbcbc;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #a49f9f;
+}
+
+main {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    gap: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #bcbcbc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.menu-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+section {
+    padding:  0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #1a237e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.left-column ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.left-column li {
+    margin-bottom: 10px;
+}
+form {
+    background-color: #e8eaf6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #ba160a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #a41208;
+}
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 8px; 
+}
